@@ -62,7 +62,7 @@ A jupyter notebook *ETL Pipeline Preparation* was used to do EDA to prepare the 
 A jupyter notebook *ML Pipeline Preparation* was used to do EDA to prepare the train_classifier.py python script. 
 
 #### 3. Flask Web App
-The project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. The outputs are shown below:
+The project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
 
 ### Instructions of How to Interact With Project:
 1. Run the following commands in the project's root directory to set up your database and model.
