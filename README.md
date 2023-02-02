@@ -6,7 +6,7 @@ Udacity Data Science Nanodegree Project 2
  * [File Descriptions](#file-descriptions)
  * [Components](#components)
  * [Instructions of How to Interact With Project](#instructions-of-how-to-interact-with-project)
- * [Licensing, Authors, Acknowledgements, etc.](#licensing-authors-acknowledgements-etc)
+ * [Resources](#resources)
  
 ### Project Motivation
 In this project, data engineering skills acquired from the udacity Data Science Nanodegree was applied to analyze disaster data from [Figure Eight](https://appen.com/) to build a model for an API that classifies disaster messages. A machine learning pipeline is created to categorize real messages that were sent during disaster events so that the messages could be sent to an appropriate disaster relief agency. The project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
@@ -25,7 +25,7 @@ data
 |- disaster_categories.csv # data to process    
 |- disaster_messages.csv # data to process    
 |- process_data.py # data cleaning pipeline    
-|- InsertDatabaseName.db # database to save clean data to     
+|- DisasterResources.db # database that saved clean data  
 
 
 models   
@@ -47,10 +47,10 @@ Three important components of the project.
  * Cleans the data
  * Stores it in a SQLite database
  
-A jupyter notebook `ETL Pipeline Preparation` was used to do EDA to prepare the process_data.py python script. 
+A jupyter notebook *ETL Pipeline Preparation* was used to do EDA to prepare the process_data.py python script. 
  
 #### 2. ML Pipeline
-`train_classifier.py`is a python machine learning pipeline that:
+*train_classifier.py* is a python machine learning pipeline that:
 
  * Loads data from the SQLite database
  * Splits the dataset into training and test sets
@@ -59,7 +59,7 @@ A jupyter notebook `ETL Pipeline Preparation` was used to do EDA to prepare the 
  * Outputs results on the test set
  * Exports the final model as a pickle file
  
-A jupyter notebook `ML Pipeline Preparation` was used to do EDA to prepare the train_classifier.py python script. 
+A jupyter notebook *ML Pipeline Preparation* was used to do EDA to prepare the train_classifier.py python script. 
 
 #### 3. Flask Web App
 The project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. The outputs are shown below:
