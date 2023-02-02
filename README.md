@@ -34,6 +34,11 @@ models
 |- classifier.pkl # saved model     
 
 
+notebooks   
+
+|- ETL Pipeline Preparation # python notebook used to create ETL pipeline     
+|- ML Pipeline Preparation # python notebook used to create MLL pipeline   
+
 README.md    
 
 ### Components
